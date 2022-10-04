@@ -10,6 +10,7 @@ divmod(quotient,reminder)
 abs(x): absolute value
 complex numbers: complex([real[,imag]])
 Decimal
+Fractions
 '''
 
 # Floor division(//) vs division(/)
@@ -55,3 +56,8 @@ y = Decimal('0.1')
 z = Decimal('0.1')
 s = x + y + z
 print('rounded decimal:',s)
+
+# Fractions
+from fractions import Fraction
+print('fractions:',Fraction(11, 35))
+print(Fraction(10, 18))
